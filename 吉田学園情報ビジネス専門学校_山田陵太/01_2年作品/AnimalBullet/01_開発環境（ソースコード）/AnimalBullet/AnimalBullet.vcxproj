@@ -18,6 +18,90 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\debug_font\debugfont.cpp" />
+    <ClCompile Include="source\effect\effect.cpp" />
+    <ClCompile Include="source\effect\explosion.cpp" />
+    <ClCompile Include="source\game\bg.cpp" />
+    <ClCompile Include="source\game\enemy_control.cpp" />
+    <ClCompile Include="source\game\fade.cpp" />
+    <ClCompile Include="source\game\game.cpp" />
+    <ClCompile Include="source\input\input.cpp" />
+    <ClCompile Include="source\input\joystick.cpp" />
+    <ClCompile Include="source\input\keyboard.cpp" />
+    <ClCompile Include="source\object\attack\beam.cpp" />
+    <ClCompile Include="source\object\attack\bome.cpp" />
+    <ClCompile Include="source\object\attack\bullet.cpp" />
+    <ClCompile Include="source\object\attack\shield.cpp" />
+    <ClCompile Include="source\object\character\character.cpp" />
+    <ClCompile Include="source\object\character\enemy\boss.cpp" />
+    <ClCompile Include="source\object\character\enemy\enemy.cpp" />
+    <ClCompile Include="source\object\character\enemy\enemyhoming.cpp" />
+    <ClCompile Include="source\object\character\enemy\enemynomral.cpp" />
+    <ClCompile Include="source\object\character\enemy\enemysniping.cpp" />
+    <ClCompile Include="source\object\character\enemy\middleboss.cpp" />
+    <ClCompile Include="source\object\character\player\player.cpp" />
+    <ClCompile Include="source\object\item\item.cpp" />
+    <ClCompile Include="source\object\polygon.cpp" />
+    <ClCompile Include="source\object\scene.cpp" />
+    <ClCompile Include="source\object\scene2d.cpp" />
+    <ClCompile Include="source\out_game\ranking.cpp" />
+    <ClCompile Include="source\out_game\result.cpp" />
+    <ClCompile Include="source\out_game\title.cpp" />
+    <ClCompile Include="source\renderer\renderer.cpp" />
+    <ClCompile Include="source\system\main.cpp" />
+    <ClCompile Include="source\system\manager.cpp" />
+    <ClCompile Include="source\system\sound.cpp" />
+    <ClCompile Include="source\ui\animalui.cpp" />
+    <ClCompile Include="source\ui\gauge\gauge.cpp" />
+    <ClCompile Include="source\ui\gauge\lifeber.cpp" />
+    <ClCompile Include="source\ui\number.cpp" />
+    <ClCompile Include="source\ui\score.cpp" />
+    <ClCompile Include="source\ui\gauge\skillber.cpp" />
+    <ClCompile Include="source\ui\ui.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="source\debug_font\debugfont.h" />
+    <ClInclude Include="source\effect\effect.h" />
+    <ClInclude Include="source\effect\explosion.h" />
+    <ClInclude Include="source\game\bg.h" />
+    <ClInclude Include="source\game\enemy_control.h" />
+    <ClInclude Include="source\game\fade.h" />
+    <ClInclude Include="source\game\game.h" />
+    <ClInclude Include="source\input\input.h" />
+    <ClInclude Include="source\input\joystick.h" />
+    <ClInclude Include="source\input\keyboard.h" />
+    <ClInclude Include="source\object\attack\beam.h" />
+    <ClInclude Include="source\object\attack\bome.h" />
+    <ClInclude Include="source\object\attack\bullet.h" />
+    <ClInclude Include="source\object\attack\shield.h" />
+    <ClInclude Include="source\object\character\character.h" />
+    <ClInclude Include="source\object\character\enemy\boss.h" />
+    <ClInclude Include="source\object\character\enemy\enemy.h" />
+    <ClInclude Include="source\object\character\enemy\enemyhoming.h" />
+    <ClInclude Include="source\object\character\enemy\enemynomral.h" />
+    <ClInclude Include="source\object\character\enemy\enemysniping.h" />
+    <ClInclude Include="source\object\character\enemy\middleboss.h" />
+    <ClInclude Include="source\object\character\player\player.h" />
+    <ClInclude Include="source\object\item\item.h" />
+    <ClInclude Include="source\object\polygon.h" />
+    <ClInclude Include="source\object\scene.h" />
+    <ClInclude Include="source\object\scene2d.h" />
+    <ClInclude Include="source\out_game\ranking.h" />
+    <ClInclude Include="source\out_game\result.h" />
+    <ClInclude Include="source\out_game\title.h" />
+    <ClInclude Include="source\renderer\renderer.h" />
+    <ClInclude Include="source\system\main.h" />
+    <ClInclude Include="source\system\manager.h" />
+    <ClInclude Include="source\system\sound.h" />
+    <ClInclude Include="source\ui\animalui.h" />
+    <ClInclude Include="source\ui\gauge\gauge.h" />
+    <ClInclude Include="source\ui\gauge\lifeber.h" />
+    <ClInclude Include="source\ui\number.h" />
+    <ClInclude Include="source\ui\score.h" />
+    <ClInclude Include="source\ui\gauge\skillber.h" />
+    <ClInclude Include="source\ui\ui.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{84CEAD9E-70B8-4E6C-9221-C4A0057D9F80}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
@@ -93,6 +177,7 @@
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <AdditionalIncludeDirectories>$(SolutionDir)\AnimalBullet\source\ui\gauge;$(SolutionDir)\AnimalBullet\source\ui;$(SolutionDir)\AnimalBullet\source\system;$(SolutionDir)\AnimalBullet\source\renderer;$(SolutionDir)\AnimalBullet\source\out_game;$(SolutionDir)\AnimalBullet\source\object\item;$(SolutionDir)\AnimalBullet\source\object\character\player;$(SolutionDir)\AnimalBullet\source\object\character\enemy;$(SolutionDir)\AnimalBullet\source\object\character;$(SolutionDir)\AnimalBullet\source\object\attack;$(SolutionDir)\AnimalBullet\source\object;$(SolutionDir)\AnimalBullet\source\input;$(SolutionDir)\AnimalBullet\source\game;$(SolutionDir)\AnimalBullet\source\effect;$(SolutionDir)\AnimalBullet\source\debug_font;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -122,6 +207,7 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <AdditionalIncludeDirectories>$(SolutionDir)\AnimalBullet\source\ui\gauge;$(SolutionDir)\AnimalBullet\source\ui;$(SolutionDir)\AnimalBullet\source\system;$(SolutionDir)\AnimalBullet\source\renderer;$(SolutionDir)\AnimalBullet\source\out_game;$(SolutionDir)\AnimalBullet\source\object\item;$(SolutionDir)\AnimalBullet\source\object\character\player;$(SolutionDir)\AnimalBullet\source\object\character\enemy;$(SolutionDir)\AnimalBullet\source\object\character;$(SolutionDir)\AnimalBullet\source\object\attack;$(SolutionDir)\AnimalBullet\source\object;$(SolutionDir)\AnimalBullet\source\input;$(SolutionDir)\AnimalBullet\source\game;$(SolutionDir)\AnimalBullet\source\effect;$(SolutionDir)\AnimalBullet\source\debug_font;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -147,78 +233,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="animalui.cpp" />
-    <ClCompile Include="beam.cpp" />
-    <ClCompile Include="bg.cpp" />
-    <ClCompile Include="bome.cpp" />
-    <ClCompile Include="boss.cpp" />
-    <ClCompile Include="bullet.cpp" />
-    <ClCompile Include="effect.cpp" />
-    <ClCompile Include="enemy.cpp" />
-    <ClCompile Include="explosion.cpp" />
-    <ClCompile Include="fade.cpp" />
-    <ClCompile Include="game.cpp" />
-    <ClCompile Include="gauge.cpp" />
-    <ClCompile Include="input.cpp" />
-    <ClCompile Include="item.cpp" />
-    <ClCompile Include="joystick.cpp" />
-    <ClCompile Include="keyboard.cpp" />
-    <ClCompile Include="life.cpp" />
-    <ClCompile Include="main.cpp" />
-    <ClCompile Include="manager.cpp" />
-    <ClCompile Include="number.cpp" />
-    <ClCompile Include="player.cpp" />
-    <ClCompile Include="polygon.cpp" />
-    <ClCompile Include="ranking.cpp" />
-    <ClCompile Include="renderer.cpp" />
-    <ClCompile Include="result.cpp" />
-    <ClCompile Include="scene.cpp" />
-    <ClCompile Include="scene2d.cpp" />
-    <ClCompile Include="score.cpp" />
-    <ClCompile Include="shield.cpp" />
-    <ClCompile Include="skill.cpp" />
-    <ClCompile Include="sound.cpp" />
-    <ClCompile Include="title.cpp" />
-    <ClCompile Include="ui.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="animalui.h" />
-    <ClInclude Include="beam.h" />
-    <ClInclude Include="bg.h" />
-    <ClInclude Include="bome.h" />
-    <ClInclude Include="boss.h" />
-    <ClInclude Include="bullet.h" />
-    <ClInclude Include="effect.h" />
-    <ClInclude Include="enemy.h" />
-    <ClInclude Include="explosion.h" />
-    <ClInclude Include="fade.h" />
-    <ClInclude Include="game.h" />
-    <ClInclude Include="gauge.h" />
-    <ClInclude Include="input.h" />
-    <ClInclude Include="item.h" />
-    <ClInclude Include="joystick.h" />
-    <ClInclude Include="keyboard.h" />
-    <ClInclude Include="life.h" />
-    <ClInclude Include="main.h" />
-    <ClInclude Include="manager.h" />
-    <ClInclude Include="number.h" />
-    <ClInclude Include="player.h" />
-    <ClInclude Include="polygon.h" />
-    <ClInclude Include="ranking.h" />
-    <ClInclude Include="renderer.h" />
-    <ClInclude Include="resource.h" />
-    <ClInclude Include="resource1.h" />
-    <ClInclude Include="result.h" />
-    <ClInclude Include="scene.h" />
-    <ClInclude Include="scene2d.h" />
-    <ClInclude Include="score.h" />
-    <ClInclude Include="shield.h" />
-    <ClInclude Include="skill.h" />
-    <ClInclude Include="sound.h" />
-    <ClInclude Include="title.h" />
-    <ClInclude Include="ui.h" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

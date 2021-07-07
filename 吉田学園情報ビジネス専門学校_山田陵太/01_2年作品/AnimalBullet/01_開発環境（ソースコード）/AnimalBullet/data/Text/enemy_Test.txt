@@ -1,0 +1,15 @@
+SCRIPT
+	//============
+	//第1陣
+	//============
+	SET_ENEMY
+		SPOON_TIME = 100
+		POS = 1300.0 200.0 0.0
+		SIZE = 70.0 70.0 0.0
+		ENEMY_TYPE = 0
+		LIFE = 3
+		SCORE = 100
+		ACTION = 1
+		DEATH_ACTION = 2
+	END_ENEMY
+END_SCRIPT

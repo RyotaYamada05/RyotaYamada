@@ -15,210 +15,246 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="animalui.cpp">
+    <ClCompile Include="source\debug_font\debugfont.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
-    <ClCompile Include="beam.cpp">
+    <ClCompile Include="source\effect\effect.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
-    <ClCompile Include="bg.cpp">
+    <ClCompile Include="source\effect\explosion.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
-    <ClCompile Include="bome.cpp">
+    <ClCompile Include="source\game\bg.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
-    <ClCompile Include="boss.cpp">
+    <ClCompile Include="source\game\fade.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
-    <ClCompile Include="bullet.cpp">
+    <ClCompile Include="source\game\game.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
-    <ClCompile Include="effect.cpp">
+    <ClCompile Include="source\input\input.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
-    <ClCompile Include="enemy.cpp">
+    <ClCompile Include="source\input\joystick.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
-    <ClCompile Include="explosion.cpp">
+    <ClCompile Include="source\input\keyboard.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
-    <ClCompile Include="fade.cpp">
+    <ClCompile Include="source\object\attack\beam.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
-    <ClCompile Include="game.cpp">
+    <ClCompile Include="source\object\attack\bome.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
-    <ClCompile Include="gauge.cpp">
+    <ClCompile Include="source\object\attack\bullet.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
-    <ClCompile Include="input.cpp">
+    <ClCompile Include="source\object\attack\shield.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
-    <ClCompile Include="item.cpp">
+    <ClCompile Include="source\object\character\enemy\boss.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
-    <ClCompile Include="joystick.cpp">
+    <ClCompile Include="source\object\character\enemy\enemy.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
-    <ClCompile Include="keyboard.cpp">
+    <ClCompile Include="source\object\character\player\player.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
-    <ClCompile Include="life.cpp">
+    <ClCompile Include="source\object\character\character.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
-    <ClCompile Include="main.cpp">
+    <ClCompile Include="source\object\item\item.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
-    <ClCompile Include="manager.cpp">
+    <ClCompile Include="source\object\polygon.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
-    <ClCompile Include="number.cpp">
+    <ClCompile Include="source\object\scene.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
-    <ClCompile Include="player.cpp">
+    <ClCompile Include="source\object\scene2d.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
-    <ClCompile Include="polygon.cpp">
+    <ClCompile Include="source\out_game\ranking.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
-    <ClCompile Include="ranking.cpp">
+    <ClCompile Include="source\out_game\result.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
-    <ClCompile Include="renderer.cpp">
+    <ClCompile Include="source\out_game\title.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
-    <ClCompile Include="result.cpp">
+    <ClCompile Include="source\renderer\renderer.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
-    <ClCompile Include="scene.cpp">
+    <ClCompile Include="source\system\main.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
-    <ClCompile Include="scene2d.cpp">
+    <ClCompile Include="source\system\manager.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
-    <ClCompile Include="score.cpp">
+    <ClCompile Include="source\system\sound.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
-    <ClCompile Include="shield.cpp">
+    <ClCompile Include="source\ui\animalui.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
-    <ClCompile Include="skill.cpp">
+    <ClCompile Include="source\ui\number.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
-    <ClCompile Include="sound.cpp">
+    <ClCompile Include="source\ui\score.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
-    <ClCompile Include="title.cpp">
+    <ClCompile Include="source\ui\ui.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
-    <ClCompile Include="ui.cpp">
+    <ClCompile Include="source\ui\gauge\gauge.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ui\gauge\lifeber.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ui\gauge\skillber.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="source\object\character\enemy\enemynomral.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="source\object\character\enemy\enemysniping.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="source\object\character\enemy\enemyhoming.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="source\object\character\enemy\middleboss.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="source\game\enemy_control.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="animalui.h">
+    <ClInclude Include="source\debug_font\debugfont.h">
       <Filter>ヘッダー ファイル</Filter>
     </ClInclude>
-    <ClInclude Include="beam.h">
+    <ClInclude Include="source\effect\effect.h">
       <Filter>ヘッダー ファイル</Filter>
     </ClInclude>
-    <ClInclude Include="bg.h">
+    <ClInclude Include="source\effect\explosion.h">
       <Filter>ヘッダー ファイル</Filter>
     </ClInclude>
-    <ClInclude Include="bome.h">
+    <ClInclude Include="source\game\bg.h">
       <Filter>ヘッダー ファイル</Filter>
     </ClInclude>
-    <ClInclude Include="boss.h">
+    <ClInclude Include="source\game\fade.h">
       <Filter>ヘッダー ファイル</Filter>
     </ClInclude>
-    <ClInclude Include="bullet.h">
+    <ClInclude Include="source\game\game.h">
       <Filter>ヘッダー ファイル</Filter>
     </ClInclude>
-    <ClInclude Include="effect.h">
+    <ClInclude Include="source\input\input.h">
       <Filter>ヘッダー ファイル</Filter>
     </ClInclude>
-    <ClInclude Include="enemy.h">
+    <ClInclude Include="source\input\joystick.h">
       <Filter>ヘッダー ファイル</Filter>
     </ClInclude>
-    <ClInclude Include="explosion.h">
+    <ClInclude Include="source\input\keyboard.h">
       <Filter>ヘッダー ファイル</Filter>
     </ClInclude>
-    <ClInclude Include="fade.h">
+    <ClInclude Include="source\object\attack\beam.h">
       <Filter>ヘッダー ファイル</Filter>
     </ClInclude>
-    <ClInclude Include="game.h">
+    <ClInclude Include="source\object\attack\bome.h">
       <Filter>ヘッダー ファイル</Filter>
     </ClInclude>
-    <ClInclude Include="gauge.h">
+    <ClInclude Include="source\object\attack\bullet.h">
       <Filter>ヘッダー ファイル</Filter>
     </ClInclude>
-    <ClInclude Include="input.h">
+    <ClInclude Include="source\object\attack\shield.h">
       <Filter>ヘッダー ファイル</Filter>
     </ClInclude>
-    <ClInclude Include="item.h">
+    <ClInclude Include="source\object\character\enemy\boss.h">
       <Filter>ヘッダー ファイル</Filter>
     </ClInclude>
-    <ClInclude Include="joystick.h">
+    <ClInclude Include="source\object\character\enemy\enemy.h">
       <Filter>ヘッダー ファイル</Filter>
     </ClInclude>
-    <ClInclude Include="keyboard.h">
+    <ClInclude Include="source\object\character\player\player.h">
       <Filter>ヘッダー ファイル</Filter>
     </ClInclude>
-    <ClInclude Include="life.h">
+    <ClInclude Include="source\object\character\character.h">
       <Filter>ヘッダー ファイル</Filter>
     </ClInclude>
-    <ClInclude Include="main.h">
+    <ClInclude Include="source\object\item\item.h">
       <Filter>ヘッダー ファイル</Filter>
     </ClInclude>
-    <ClInclude Include="manager.h">
+    <ClInclude Include="source\object\polygon.h">
       <Filter>ヘッダー ファイル</Filter>
     </ClInclude>
-    <ClInclude Include="number.h">
+    <ClInclude Include="source\object\scene.h">
       <Filter>ヘッダー ファイル</Filter>
     </ClInclude>
-    <ClInclude Include="player.h">
+    <ClInclude Include="source\object\scene2d.h">
       <Filter>ヘッダー ファイル</Filter>
     </ClInclude>
-    <ClInclude Include="polygon.h">
+    <ClInclude Include="source\out_game\ranking.h">
       <Filter>ヘッダー ファイル</Filter>
     </ClInclude>
-    <ClInclude Include="ranking.h">
+    <ClInclude Include="source\out_game\result.h">
       <Filter>ヘッダー ファイル</Filter>
     </ClInclude>
-    <ClInclude Include="renderer.h">
+    <ClInclude Include="source\out_game\title.h">
       <Filter>ヘッダー ファイル</Filter>
     </ClInclude>
-    <ClInclude Include="result.h">
+    <ClInclude Include="source\renderer\renderer.h">
       <Filter>ヘッダー ファイル</Filter>
     </ClInclude>
-    <ClInclude Include="scene.h">
+    <ClInclude Include="source\system\main.h">
       <Filter>ヘッダー ファイル</Filter>
     </ClInclude>
-    <ClInclude Include="scene2d.h">
+    <ClInclude Include="source\system\manager.h">
       <Filter>ヘッダー ファイル</Filter>
     </ClInclude>
-    <ClInclude Include="score.h">
+    <ClInclude Include="source\system\sound.h">
       <Filter>ヘッダー ファイル</Filter>
     </ClInclude>
-    <ClInclude Include="shield.h">
+    <ClInclude Include="source\ui\animalui.h">
       <Filter>ヘッダー ファイル</Filter>
     </ClInclude>
-    <ClInclude Include="skill.h">
+    <ClInclude Include="source\ui\number.h">
       <Filter>ヘッダー ファイル</Filter>
     </ClInclude>
-    <ClInclude Include="sound.h">
+    <ClInclude Include="source\ui\score.h">
       <Filter>ヘッダー ファイル</Filter>
     </ClInclude>
-    <ClInclude Include="title.h">
+    <ClInclude Include="source\ui\ui.h">
       <Filter>ヘッダー ファイル</Filter>
     </ClInclude>
-    <ClInclude Include="ui.h">
+    <ClInclude Include="source\ui\gauge\gauge.h">
       <Filter>ヘッダー ファイル</Filter>
     </ClInclude>
-    <ClInclude Include="resource.h">
+    <ClInclude Include="source\ui\gauge\lifeber.h">
       <Filter>ヘッダー ファイル</Filter>
     </ClInclude>
-    <ClInclude Include="resource1.h">
+    <ClInclude Include="source\ui\gauge\skillber.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="source\object\character\enemy\enemynomral.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="source\object\character\enemy\enemysniping.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="source\object\character\enemy\enemyhoming.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="source\object\character\enemy\middleboss.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="source\game\enemy_control.h">
       <Filter>ヘッダー ファイル</Filter>
     </ClInclude>
   </ItemGroup>

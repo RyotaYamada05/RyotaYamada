@@ -1,0 +1,57 @@
+//=========================================================================
+//エネミーの種類
+//=========================================================================
+typedef enum
+{
+	ENEMY_TYPE_NO_BULLET = 0,	//弾を撃たない敵
+	ENEMY_TYPE_NORMAL,	//普通の敵
+	ENEMY_TYPE_SNIPING,	//狙い撃ちの敵
+	ENEMY_TYPE_HOMING,	//ホーミング弾の敵
+	ENEMY_TYPE_HADE,
+	ENEMY_TYPE_DIVISION,	//分裂弾の敵
+	ENEMY_TYPE_STOKER,	//追跡する敵
+	ENEMY_TYPE_MAX
+}ENEMY_TYPE;
+//=========================================================================
+//エネミーの死亡時の処理情報
+//=========================================================================
+typedef enum
+{
+	DEATH_ACTION_NOEN = 0,
+	DEATH_ACTION_LIFE,	//死亡時に回復アイテムを生成する
+	DEATH_ACTION_SKILL,	//死亡時にスキル回復アイテムを生成する
+	DEATH_ACTION_BOSS,	//死亡時にボスを生成する
+}DEATH_ACTION;
+
+//=========================================================================
+//行動パターン
+//=========================================================================
+typedef enum
+{
+	ACTION_PATTERN_NOMRAL = 0,	//通常の行動
+	ACTION_PATTERN_MOVE_DOWN,	//下へ移動する,
+	ACTION_PATTERN_MOVE_UP,	//上へ移動する
+	ACTION_PATTERN_STOP,	//停止する
+	ACTION_PATTERN_STOP_RETURN,	//停止後帰還する
+	ACTION_PATTERN_UP_AND_DOWN,	//上下に移動する
+	ACTION_PATTERN_STALKER,	//追跡する
+	ACTION_PATTERN_MAX
+}ACTION_PATTERN;
+
+
+画面の縦中心位置	405.0f
+
+
+連帯
+165.0
+225.0
+285.0
+345.0
+
+405.0
+
+465.0
+525.0
+585.0
+645.0
+
